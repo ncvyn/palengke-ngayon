@@ -2,12 +2,14 @@ import { defineRelations } from "drizzle-orm";
 import { dailyPrices } from "./daily_prices";
 import { categories } from "./categories";
 import { commodities } from "./commodities";
+import { links } from "./links";
 
 export const relations = defineRelations(
   {
     categories,
     commodities,
     dailyPrices,
+    links,
   },
   (r) => ({
     categories: {
@@ -26,6 +28,10 @@ export const relations = defineRelations(
       commodity: r.one.commodities({
         from: r.dailyPrices.commodityId,
         to: r.commodities.id,
+      }),
+      date: r.one.links({
+        from: r.dailyPrices.priceDate,
+        to: r.links.date,
       }),
     },
   }),
