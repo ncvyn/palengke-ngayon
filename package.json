@@ -19,6 +19,7 @@
     "tailwindcss": "^4.3.0"
   },
   "devDependencies": {
+    "@types/node": "^25.9.3",
     "daisyui": "^5.5.23",
     "drizzle-kit": "^0.31.10"
   }
