@@ -4,6 +4,10 @@
   "assets": {
     "directory": "./dist",
   },
+  "browser": {
+    "binding": "BROWSER",
+    "remote": true,
+  },
   "d1_databases": [
     {
       "binding": "palengke_ngayon_prices",

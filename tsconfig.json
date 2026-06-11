@@ -9,6 +9,7 @@
     "paths": {
       "@/*": ["./*"],
     },
+    "types": ["./worker-configuration.d.ts"],
     "strict": true,
   },
 }

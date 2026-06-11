@@ -25,3 +25,4 @@ pnpm-debug.log*
 .idea/
 
 pnpm-workspace.yaml
+worker-configuration.d.ts
