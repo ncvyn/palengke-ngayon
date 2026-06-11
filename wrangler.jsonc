@@ -4,4 +4,12 @@
   "assets": {
     "directory": "./dist",
   },
+  "d1_databases": [
+    {
+      "binding": "palengke_ngayon_prices",
+      "database_name": "palengke-ngayon-prices",
+      "database_id": "601be647-0d84-4358-8fcb-4777ff5c0ff0",
+      "migrations_dir": "migrations",
+    },
+  ],
 }
